@@ -226,7 +226,7 @@ nav button#menuButton {
 .portfolio-images1 {
     height: 200px;
     width: auto;
-    background-image: url(p4.png);
+    background-image: url(enigmaProject.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -234,7 +234,7 @@ nav button#menuButton {
 .portfolio-images2 {
     height: 200px;
     width: auto;
-    background-image: url(p5.png);
+    background-image: url(speedyeatsProject.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -242,7 +242,7 @@ nav button#menuButton {
 .portfolio-images3 {
     height: 200px;
     width: auto;
-    background-image: url(p6.png);
+    background-image: url(radiationProject.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -834,6 +834,31 @@ footer .bottom .links a {
 
     .feedback .customers .item {
         width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+    .portfolio-images1 {
+        height: 170px;
+    }
+    .portfolio-images2 {
+        height: 170px;
+    }
+    .portfolio-images3 {
+        height: 170px;
+    }
+
+}
+@media screen and (max-width: 400px) {
+    .portfolio-images1 {
+        height: 130px;
+    }
+    .portfolio-images2 {
+        height: 130px;
+    }
+    .portfolio-images3 {
+        height: 130px;
     }
 
 }
