@@ -129,7 +129,14 @@ export const socialLinks = [
     }
 ];
 
-export const projects = [
+export const projects = [    
+    {
+        iconUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOKrXXoEdELmdo7dIAXyZ4aapA9t7ACxgJeg&s",
+        theme: 'btn-back-white',
+        name: 'EstateEdge | Real estate marketplace',
+        description: 'EstateEdge is a user-friendly real estate marketplace connecting buyers, sellers, and renters. It offers detailed property listings, advanced search filters, and essential tools to simplify real estate transactions.',
+        link: 'https://real-estate-marketplace-taupe.vercel.app/',
+    },
     {
         iconUrl: "https://static.vecteezy.com/system/resources/previews/013/441/088/original/code-symbol-illustration-png.png",
         theme: 'btn-back-yellow',
